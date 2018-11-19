@@ -22,7 +22,10 @@
         <activity android:name=".NorthQ" />
         <activity android:name=".SouthQ" />
         <activity android:name=".WestQ" />
-        <activity android:name=".EastQ"></activity>
+        <activity android:name=".EastQ"/>
+        <activity android:name=".Hotlines"/>
+        <activity android:name=".SafetyTips"/>
+
     </application>
 
 </manifest>

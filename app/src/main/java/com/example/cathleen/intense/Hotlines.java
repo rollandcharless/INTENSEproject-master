@@ -12,7 +12,7 @@ public class Hotlines extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_south_q);
+        setContentView(R.layout.activity_hotlines);
         Intent i = new Intent(this, CustomService.class);
         this.startService(i);
     }

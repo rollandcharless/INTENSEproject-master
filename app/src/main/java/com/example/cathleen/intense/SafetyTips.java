@@ -12,7 +12,7 @@ public class SafetyTips extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_south_q);
+        setContentView(R.layout.activity_safety_tips);
         Intent i = new Intent(this, CustomService.class);
         this.startService(i);
     }
